@@ -9,6 +9,7 @@ Aplikacija ima mogućnost registracije i prijave te omogućuje korisniku da unes
 Korištene tehnologije su : Django kao backend, za frontend je Bootstrap, baza podataka je ugrađeni SQLite  u Djangu.
 
 Upute za lokalno korištenje:
+
 Aplikacija se pokreće tako što je na računalu prvo instaliran python 3.8.3 te pip za django, treba skinuti fileove projekta i također je potrebno putem pipa instalirati virtualno okruženje putem komande pip install virtualenv.
 Zatim se u mapi u kojoj će se pokretati projekt napravi virtual enviroment putem komande virtualenv .(potrebno staviti ovaj razmak i točku).
 Nakon toga se kreira u toj istoj mapi još jedna mapa(recimo src) i unutra se postave fileovi projekta koji su skinuti.

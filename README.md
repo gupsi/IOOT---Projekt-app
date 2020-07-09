@@ -18,3 +18,6 @@ time ulazite u virtualni enviroment. Nakon toga se piše komanda cd src te nakon
 Nakon toga se aplikacija pokreće sa komandom py manage.py runserver.
 Aplikaciji se može pristupiti na localhost:8000.
 
+Admin korisnik je user: admin
+                  lozinka: 11
+

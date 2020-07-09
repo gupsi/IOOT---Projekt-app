@@ -1,0 +1,51 @@
+{% extends "app/base.html" %}
+{% block title %}Kreiraj račun{% endblock %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class="input-group mb-3">
+<div>
+    <form method="POST" class="form-group">
+  {% csrf_token %}
+  {{ form|crispy }}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #DC143C;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+</head>
+<body>
+
+<button class="button">Registriraj se</button>
+
+</body>
+</html>
+
+    </form>
+</div>
+</div>    
+{% endblock %}

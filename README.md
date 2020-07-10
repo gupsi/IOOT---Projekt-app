@@ -10,8 +10,7 @@ Korištene tehnologije su : Django kao backend, za frontend je Bootstrap, baza p
 
 Upute za lokalno korištenje:
 
-Aplikacija se koristi tako što se u terminali dali cmd ili powershell uđe u mapu gdje se nalazi aplikacija putem cd komande. Tada se aktivira virtualno okruženje putem 
-komande  ./Scripts/activate, te se cd komandom uđeu src mapu. Komandom py manage.py runserver pokrčemo lokalni server kojim možemo aplikaciju vidjeti putem web preglednika na adresi http://127.0.0.1:8000/
+Aplikacija se koristi tako što se preuzme i instalira sa svim dodacima Python verzija 3.8.3, te se onda u terminali dali cmd ili powershell komandom pip install django instalira django. Nakon toga se treba instalirati virtualno okruženje preko komande pip install virtualenv uazim se u mapi u kojoj želite da se pokreće projekt treba se prvo preko cd ući u nju te onda komandom virutalenv . kreirati tamo virtrualno okruženje. Onda se može u tom folderu gdje se pokreće projekt napraviti novi folder npr. src i unjega kopirati sve što se nalazilo u mom src folderu. Onda u terminalu preko cd ulazi u lokaciju foldera projekta, te se aktivira virtualno okruženje preko ./Scripts/activate te onda cd src ako se tako folder zove i upiše se komanda py manage.py runserver za pokretanje servera kojim možemo aplikaciju vidjeti putem web preglednika na adresi http://127.0.0.1:8000/
 
 Admin korisnik je user: admin
                   lozinka: 11

@@ -9,8 +9,13 @@ Aplikacija ima mogućnost registracije i prijave te omogućuje korisniku da unes
 Korištene tehnologije su : Django kao backend, za frontend je Bootstrap, baza podataka je ugrađeni SQLite  u Djangu.
 
 Upute za lokalno korištenje:
-
-Aplikacija se koristi tako što se preuzme i instalira sa svim dodacima Python verzija 3.8.3, te se onda u terminali dali cmd ili powershell komandom pip install django instalira django. Nakon toga se treba instalirati virtualno okruženje preko komande pip install virtualenv uazim se u mapi u kojoj želite da se pokreće projekt treba se prvo preko cd ući u nju te onda komandom virutalenv . kreirati tamo virtrualno okruženje. Onda se može u tom folderu gdje se pokreće projekt napraviti novi folder npr. src i unjega kopirati sve što se nalazilo u mom src folderu. Onda u terminalu preko cd ulazi u lokaciju foldera projekta, te se aktivira virtualno okruženje preko ./Scripts/activate te onda cd src ako se tako folder zove i upiše se komanda py manage.py runserver za pokretanje servera kojim možemo aplikaciju vidjeti putem web preglednika na adresi http://127.0.0.1:8000/
+1. Instalirati Python 3.8.2 (64bit ili 32bit zavisno o windowsima), u powershellu ili cmd komanodm py --version možete provjeriti dali je instalacija python bila uspiješna.
+2. U powershell ili cmd instalirati django komandom: py -m pip install Django
+3. Komandom cd "lokacija projekta na vašem pc" to možete copy paste putanju u file exploreru.
+4. Zatim aktivirati skripte komandom:  .\Scripts\activate
+5. U slučaju da dođe Error : Scripts cannot be loaded ..., rjesenje je komanda : Set-ExecutionPolicy -Scope CurrentUser zatim upisati 1 i potvrditi y (yes)
+6. Kada su scripte aktivirane, a to ćete znati što će ime projekta biti u zagradi na početku unesite komandu za pokretanje servera: python manage.py runserver 
+7. Link adrese servere koje vam je izbacilo copy paste (http://127.0.0.1:8000/) na web i možete koristiti aplikaciju.
 
 Admin korisnik je user: admin
                   lozinka: 11

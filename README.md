@@ -11,7 +11,7 @@ Korištene tehnologije su : Django kao backend, za frontend je Bootstrap, baza p
 Upute za lokalno korištenje:
 1. Instalirati Python 3.8.2 (64bit ili 32bit zavisno o windowsima), u powershellu ili cmd komanodm py --version možete provjeriti dali je instalacija python bila uspiješna.
 2. U powershell ili cmd instalirati django komandom: py -m pip install Django
-3. Komandom cd "lokacija projekta na vašem pc" to možete copy paste putanju u file exploreru.
+3. Preuzetu aplikaciju sa Githubu komandom cd "lokacija projekta na vašem pc" (to možete copy paste putanju u file exploreru).
 4. Zatim aktivirati skripte komandom:  .\Scripts\activate
 5. U slučaju da dođe Error : Scripts cannot be loaded ..., rjesenje je komanda : Set-ExecutionPolicy -Scope CurrentUser zatim upisati 1 i potvrditi y (yes)
 6. Kada su scripte aktivirane, a to ćete znati što će ime projekta biti u zagradi na početku unesite komandu za pokretanje servera: python manage.py runserver 
